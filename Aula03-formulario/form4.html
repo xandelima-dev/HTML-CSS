@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Teste de Formulario</h1>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="iusu">Nome: </label>
+                <input type="text" name="nome" id="inome" required minlength="5" maxlength="15" placeholder="Nome do Usuário" autocomplete="username"></input>
+            </p>
+            <p>
+                <label for="iemal">Email </label>
+                <input type="email" name="email" id="iemal" placeholder="Email">
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" placeholder="(xx)xxxxx-xxxx">
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
