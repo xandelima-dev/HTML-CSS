@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) {
+    #burger {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        text-align: center;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    main {
+        width: 786px;
+    }
+}
+
+
