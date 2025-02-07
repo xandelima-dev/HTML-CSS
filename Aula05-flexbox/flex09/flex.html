@@ -1,24 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex Box</title>
     <style>
         .conteiner {
-            height: 200px;
+            height: 500px;
             background-color: lightsalmon;
             display: flex;
-            flex-flow: row nowrap;
-            justify-content: center;
-            align-items: center;
+            flex-flow: row wrap;
+            align-content: space-around;
         }
 
         .item {
             background-color: aqua;
             border: 1px solid black;
             text-align: center;
-            padding: 10px;
+            padding: 50px;
         }
     </style>
 </head>
@@ -30,6 +29,11 @@
         <div class="item">D</div>
         <div class="item">E</div>
         <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">h</div>
+        <div class="item">i</div>
+        <div class="item">G</div>
+        <div class="item">G</div>
         <div class="item">G</div>
     </div>
 </body>
