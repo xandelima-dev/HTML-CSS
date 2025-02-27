@@ -41,12 +41,13 @@ header > nav > a:hover {
 }
 
 header> h1 {
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.527);
     flex: 0 0 200px;
 }
 
 nav {
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -54,6 +55,7 @@ nav {
 
 main {
     background-color: white;
+    text-align: center;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
